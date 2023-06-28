@@ -1,14 +1,22 @@
-import React from "react";
+import { useState } from "react";
 
-function Party() {
+function Party({ party }) {
+  
+  const [ attended, setAttended ] = useState( false )
+
+  const toggleAttended = () => {
+    setAttended( !attended )
+  }
   return (
     <div>
-      <h3>Address</h3>
-      <p>Notes</p>
+      <h3>{ party.address }</h3>
+      <p>{ party.notes }</p>
       <p>
-        <strong>- Host</strong>
+        <strong>- { party.host }</strong>
       </p>
-      <button>Go to party</button>
+      <button onClick={ toggleAttended }>
+        { attended ? 'Party Successful' : 'Go to party' }
+      </button>
     </div>
   );
 }

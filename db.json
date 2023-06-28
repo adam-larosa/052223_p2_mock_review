@@ -23,6 +23,12 @@
       "address": "1460 Mission",
       "notes": "Coder afterparty with lots of board games and candy.",
       "host": "Muse"
+    },
+    {
+      "address": "San Jose",
+      "host": "Emiley",
+      "notes": "Party of the century!",
+      "id": 5
     }
   ]
 }
