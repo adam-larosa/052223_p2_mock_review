@@ -1,0 +1,28 @@
+{
+  "parties": [
+    {
+      "id": 1,
+      "address": "8852 West Sunset Boulevard",
+      "notes": "Should go all night.  Lots of rock & roll music.  Will be at the famous Viper Room in Los Angeles.",
+      "host": "Bryan Callen"
+    },
+    {
+      "id": 2,
+      "address": "1015 Folsom Street",
+      "notes": "The rave to end all raves.  Three floors of electronic dance music with lots of lasers.",
+      "host": "John Digweed"
+    },
+    {
+      "id": 3,
+      "address": "315 Bowery",
+      "notes": "An evening of hardcore punk rock and ska.",
+      "host": "Vinnie Stigma"
+    },
+    {
+      "id": 4,
+      "address": "1460 Mission",
+      "notes": "Coder afterparty with lots of board games and candy.",
+      "host": "Muse"
+    }
+  ]
+}
